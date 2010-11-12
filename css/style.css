@@ -1,4 +1,4 @@
-/*  HTML5 ✰ Boilerplate  */
+/*****  HTML5 ✰ Boilerplate  and RESET *****/
 
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -31,19 +31,19 @@ hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 
 input, select { vertical-align:middle; }
 
 
-body { font:13px/1.231; font-family: Century Gothic, Tahoma, Geneva, sans-serif; *font-size:small; } 
+body {*font-size:small; } 
 select, input, textarea, button { font:99% sans-serif; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
 body, select, input, textarea {   color: #474747; }
-h1,h2,h3,h4,h5,h6 { font-family: Rockwell, Georgia, serif; font-weight: bold; }
+h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 html { overflow-y: scroll; }
 
 a:hover, a:active { outline: none; }
 a, a:active, a:visited { color: #3d89c8; }
 a:hover { color: #1b325f; }
 
-ul, ol { margin-left: 1.8em; font-family: Rockwell, Georgia, serif; }
+ul, ol { margin-left: 1.8em; }
 ol { list-style-type: decimal; }
 
 nav ul, nav li { margin: 0; } 
@@ -60,7 +60,7 @@ input[type="checkbox"] { vertical-align: bottom; }
 .ie7 input[type="checkbox"] { vertical-align: baseline; }
 .ie6 input { vertical-align: text-bottom; }
 label, input[type=button], input[type=submit], button { cursor: pointer; }
-button, input, select, textarea { margin: 0; font-family: Rockwell, Georgia, serif;}
+button, input, select, textarea { margin: 0; }
 input:valid, textarea:valid   {  }
 input:invalid, textarea:invalid { border-radius: 1px;  -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red;  box-shadow: 0px 0px 5px red; }
 .no-boxshadow input:invalid, 
@@ -111,12 +111,11 @@ button {  width: auto; overflow: visible; }
 }
 
 
- /* Primary Styles
-    Author: Lee McAlilly, http://electricorangecreative.com
- */
+
+/***** Primary Styles - Author: Lee McAlilly, http://electricorangecreative.com *****/
 
 
-/***** Color Info 
+/***** Color Info  
 
 Black: #000
 Dark Grey: #474747
@@ -127,6 +126,60 @@ Sky Blue: #cfe2f1
 Light Light Blue: #1b325f
 
 ******/
+
+
+/***** Typography ******/
+
+body {  
+	font:12px/1.231;
+	font-family: Century Gothic, Tahoma, Geneva, sans-serif;
+}  
+
+h1,h2,h3,h4,h5,h6 { 
+	font-family: Rockwell, Georgia, serif;
+}
+
+h1 {  
+	font-size: 3.0em;  
+}
+  
+h2 {  
+ 	font-size: 2.0em;  
+}  
+
+h3 {  
+ 	font-size: 1.5em;  
+}  
+
+h4 {  
+ 	font-size: 1.25em;  
+}  
+
+blockquote {  
+ 	font-size: 1.0em;  
+}  
+
+p {  
+ 	font-size: 0.75em;  
+}  
+
+input {  
+ 	font-size: 0.75em;  
+}  
+
+small {  
+ 	font-size: 0.75em;  
+}
+
+ul, ol {
+	font-family: Rockwell, Georgia, serif; 
+}
+
+button, input, select, textarea { 
+	 font-family: Rockwell, Georgia, serif;
+}
+
+/****** Layout *****/
 
 html {
 	height:100%;
