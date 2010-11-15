@@ -373,6 +373,8 @@ header nav li:hover ul li a:hover {
 #itemPhoto img {
 	float:left;
 	margin:12px 0 0 0;
+	-moz-box-shadow: 3px 3px 6px rgba(3, 0, 0, 0.3);
+	-webkit-box-shadow: 3px 3px 6px rgba(3, 0, 0, 0.3);
 }
 
 #itemPhoto #viewLarger a {
