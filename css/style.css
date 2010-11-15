@@ -267,7 +267,7 @@ header nav li {
 }
 
 header nav .mainNavBtn {
-	margin:35px 0 5px 60px;
+	margin:37px 0 5px 60px;
 	padding:5px 10px 5px 10px;
 }
 
@@ -321,7 +321,22 @@ header nav li:hover ul li a:hover {
 	float:left;
 	width:349px;
 	overflow:hidden;
-	margin:0 0 0 45px;
+	margin:10px 0 0 50px;
+}
+
+#cartPreview {
+	float:right;
+	margin:0 0 15px 0;
+}
+
+#cartPreview a {
+	float:left;
+	overflow:hidden;
+	text-decoration:none;
+	x-background:url('../images/cart-icon.png') 100% 0 no-repeat;
+	text-align:right;
+	x-text-indent:40px;
+	x-padding:0 0 45px 45px;
 }
 
 #searchBox {
@@ -379,6 +394,11 @@ header nav li:hover ul li a:hover {
 	margin:0 0 0 45px;
 }
 
+#itemInfo h2 a {
+	color:#c4c4c4;
+	text-decoration:none;
+}
+
 #itemInfo ul {
 	list-style-type:none;
 	margin:20px 0 20px 5px;
@@ -394,7 +414,7 @@ header nav li:hover ul li a:hover {
 	left:-5px;
 }
 
-#add-to-cart {
+#addToCart {
 	float:left;
 	font-size:1.5em;
 	border:none;
@@ -406,6 +426,12 @@ header nav li:hover ul li a:hover {
 	margin:15px 0 0 0;
 }
 
-
-
+#itemDescription {
+	float:left;
+	width:100%;
+	padding:10px 0 0 0;
+	margin:20px 0 0 0;
+	x-border-top:2px solid #ecf3f9;
+	border-top:2px solid #cfe2f1;
+}
 
