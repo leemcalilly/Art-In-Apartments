@@ -516,7 +516,17 @@ x-#itemInfo h2 a {
 
 #browseCol h2 {
 	font-size:1em;
+	margin:5px 0 0 0;
 }
+
+#browseCol .itemPreview h2 a {
+	color:#3d89c8;
+}
+
+#browseCol .itemPreview h2 a:hover {
+	color:#1b325f;
+}
+
 
 #browseCol .itemPreview {
 	min-height:240px;
