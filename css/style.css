@@ -222,7 +222,7 @@ header {
 #main {
 	float:left;
 	width:100%;
-	padding:30px 0 45px 0;
+	padding:15px 0 45px 0;
 	border-top:3px solid #3d89c8;
 }
 
@@ -494,5 +494,40 @@ x-#itemInfo h2 a {
 	-moz-border-radius:6px 6px 6px 6px;
 	border-radius:6px 6px 6px 6px;
 	padding:5px 5px 5px 5px;
+	margin:15px 0 0 0;
+}
+
+
+/***** Browse Page ******/
+
+#browseCol {
+	float:left;
+	width:100%;
+	overflow:hidden;
+}
+
+#browseCol h1 {
+	float:left;
+	width:100%;
+	padding:0 0 5px 0;
+	margin:0 0 15px 0;
+	border-bottom:1px dotted #cfe2f1;
+}
+
+#browseCol h2 {
+	font-size:1em;
+}
+
+#browseCol .itemPreview {
+	min-height:240px;
+	text-align:center;
+	padding: 0 19px 15px 19px;
+}
+
+#pagination {
+	float:left;
+	width:930px;
+	text-align:right;
+	padding:0 30px 0 0;
 	margin:15px 0 0 0;
 }
