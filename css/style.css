@@ -266,12 +266,6 @@ header h1 a {
 	background:url('../images/logo.png') 0 0 no-repeat;
 }
 
-x-#tagline {
-	float:left;
-	x-width:202px;
-	width:328px;
-}
-
 header nav {
 	float:left;
 	width:328px;
@@ -286,6 +280,7 @@ header nav ul {
 header nav li {
 	float:left;
 	position:relative;
+	z-index:5000;
 	font-size:28px;
 }
 
@@ -315,7 +310,6 @@ header nav li:hover ul {
 	display: block; 
 	overflow:hidden;
 	width:240px;
-	x-background:#cfe2f1;
 	background:#ecf3f9;
 	border:4px solid #1b325f;
 	margin:1px 0 0 0;
@@ -356,10 +350,7 @@ header nav li:hover ul li a:hover {
 	float:left;
 	overflow:hidden;
 	text-decoration:none;
-	x-background:url('../images/cart-icon.png') 100% 0 no-repeat;
 	text-align:right;
-	x-text-indent:40px;
-	x-padding:0 0 45px 45px;
 }
 
 #searchBox {
@@ -540,4 +531,27 @@ x-#itemInfo h2 a {
 	text-align:right;
 	padding:0 30px 0 0;
 	margin:15px 0 0 0;
+}
+
+
+/***** Home Page *****/
+
+#slider {
+    position:relative;
+    width:960px; /* Change this to your images width */
+    height:440px; /* Change this to your images height */
+    background:url('../images/loading.gif') no-repeat 50% 50%;
+	margin:15px 0 0 0;
+}
+
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+
+#slider a {
+    border:0;
+    display:block;
 }
